@@ -7,7 +7,7 @@ const App = () => {
     return (
         <>
         <div className='app-container'>
-        <a className='display' style={{backgroundColor : color}} href='#'>{count} <sup>o</sup>C</a>
+        <button className='display' style={{backgroundColor : color}} href='#'>{count} <sup>o</sup>C</button>
           <div className='container'>
             <button className='button' onClick={
                 () => {
